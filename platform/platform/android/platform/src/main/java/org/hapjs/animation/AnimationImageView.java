@@ -36,6 +36,7 @@ public class AnimationImageView extends androidx.appcompat.widget.AppCompatImage
     protected void onDetachedFromWindow() {
         super.onDetachedFromWindow();
         stopAnimation();
+        //测试github提交
     }
 
     private void startAnimation() {
